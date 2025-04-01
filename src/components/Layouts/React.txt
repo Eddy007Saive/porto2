@@ -1,0 +1,29 @@
+
+ohatra anao apk kely mampiseo tomobile ohatra :
+mamorona Mycars - Cars 
+d io mis marque de couleur 
+
+1- mamorona dossier atao oe component 
+2-Mycar
+3-importena ny react 
+4- mamorona component : io nefa tsy hita raha tsy exportena export default  Mycars
+
+5- ny atao oe jsx a dia fitambarana js sy xml ary html  :
+    - ao anaty component a tsy maintsy mis return in mi retourner anle template tina avoka 
+
+6- makany am app de fafa dahoooooooo anaatin return 
+dia importeo le   Mycars 
+
+7- fafa le import na app
+
+8- makanisa any am mycars 
+mamorona component vaovao atsoina oe car
+
+9-ao am mycars asio oe  h1 Mes voiture
+
+---------Miditra ny atao oe props na oe parametre ---------
+
+ataontsika props le couleur symarque 
+makanisa any am mycars de eo am le car asio attribut couleur="red" ,marque="mercedes
+ASIO parametreny fonction car
+ 

@@ -1,0 +1,82 @@
+/* Styles globaux pour la section Projets */
+#projects {
+    padding: 50px 0; /* Espacement vertical */
+    color: #fff; /* Texte blanc pour contraster avec le fond */
+  }
+  
+  #projects h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff; /* Titre en blanc */
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Styles pour chaque carte de projet */
+  #projects .project-card {
+    border: none; /* Suppression de la bordure */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+  }
+  .content{
+    background-color: rgba(0, 0, 0, 0.1); /* Légère couleur de fond sombre pour chaque élément de la liste */
+
+  }
+  #projects .project-card:hover {
+    transform: translateY(-10px); /* Déplacement au survol */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
+  }
+  
+  /* Titre des cartes */
+  #projects .project-title {
+    font-size: 0.8 rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Description */
+  #projects .project-description {
+    color: #cccccc; /* Gris clair */
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Liste des points marquants */
+  #projects .project-highlights {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  #projects .project-highlights li {
+    color: #ffffff; /* Texte blanc */
+    margin-bottom: 10px;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  #projects .project-highlights li:before {
+    content: "✔"; /* Icône personnalisée */
+    color: #10b981; /* Vert vif */
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  /* Technologies */
+  #projects .project-technologies {
+    color:black; /* Vert vif */
+    font-size: 0.9rem;
+    margin-top: 15px;
+    font-style: italic;
+  }
+
+
+  .button{
+    position: absolute;
+    width: 10%;
+    top: 90%;
+    left: 80%;
+  }
+
+  

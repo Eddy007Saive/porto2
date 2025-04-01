@@ -1,0 +1,61 @@
+/* Styles globaux pour la section Compétences */
+#competences {
+    padding: 50px 0; /* Espacement vertical */
+    color: #fff; /* Texte blanc pour contraster avec le fond */
+  }
+
+   svg {
+    width: 24px; /* Taille par défaut de l'icône */
+    height: 24px;
+    margin-right: 10px; /* Espacement entre l'icône et le nom de la compétence */
+    fill: #61dafb; /* Couleur par défaut de l'icône (couleur de React) */
+    transition: fill 0.3s ease; /* Transition fluide pour les changements de couleur */
+  }
+  
+  /* Ajout d'un effet au survol de l'icône */
+  svg:hover {
+    fill: #3c3c3c; /* Change la couleur au survol (gris foncé par exemple) */
+  }
+  
+  #competences h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff; /* Titre en blanc */
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #competences .card {
+    background-color: rgba(255, 255, 255, 0.1); /* Fond légèrement transparent pour les cartes */
+    border: none; /* Suppression de la bordure */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre subtile autour des cartes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation douce */
+  }
+  
+  #competences .card:hover {
+    transform: translateY(-10px); /* Effet de déplacement au survol */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Ombre plus marquée au survol */
+  }
+  
+  #competences .card-title {
+    color: #ffffff; /* Titre des cartes en blanc */
+    font-size: 1.75rem; /* Taille de police légèrement plus grande pour les titres */
+    margin-bottom: 20px;
+  }
+  
+  #competences .list-group-item {
+    background-color: rgba(0, 0, 0, 0.1); /* Légère couleur de fond sombre pour chaque élément de la liste */
+    border: none; /* Suppression de la bordure */
+    color: #ffffff; /* Texte blanc */
+    font-size: 1.1em;
+  }
+  
+  #competences .list-group-item i {
+    color: #10b981; /* Couleur de l'icône (vert vif) */
+    margin-right: 8px; /* Espacement entre l'icône et le texte */
+  }
+  
+  #competences .list-group-item:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Sombre un peu plus au survol */
+  }
+  
