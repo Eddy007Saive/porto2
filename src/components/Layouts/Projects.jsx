@@ -36,7 +36,7 @@ const ProjectsCarousel = () => {
       name: "Website for INSTAT Madagascar",
       description:
         "A data request management site for INSTAT Madagascar, with an admin and user interface.",
-      technologies: "Symfony, Vue.js, TypeScript, SCSS, FontAwesome",
+      technologies: "Laravel, Vue.js",
       highlights: [
         "Intuitive user interface for managing requests.",
         "Admin functionalities for processing requests.",
@@ -68,6 +68,7 @@ const ProjectsCarousel = () => {
         "Administrative role with the integration of management tools.",
       ],
       image: databoost,
+      demo:true,
       link: "https://databoost.us/",
       longDescription: "Databoost.us is a cutting-edge platform that revolutionizes data request management. The system features an intuitive interface for customers to submit and track their data needs, while administrators benefit from comprehensive tools to process requests efficiently. Additionally, the platform includes specialized features for tourism sector data, helping agencies optimize trip planning based on statistical insights."
     },
@@ -82,6 +83,7 @@ const ProjectsCarousel = () => {
         "Administrative role with the integration of management tools.",
       ],
       image: SwiftCart,
+      demo:true,
       link: "https://swiftcart.databoost.us/"
     },
   ];

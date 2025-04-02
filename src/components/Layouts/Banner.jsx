@@ -11,6 +11,15 @@ export default function Banner() {
    Explore my work, and let's collaborate on your projects
  ` ;
 
+ const downloadCV = () => {
+  const link = document.createElement("a");
+  link.href = "/cv/Curriculum Vitae.pdf"; // Assurez-vous que le fichier est bien dans public/
+  link.download = "Eddy_CV.pdf"; 
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
   useEffect(() => {
     const displayText = async (textToDisplay, callback) => {
       let nextText = "";
@@ -55,20 +64,15 @@ export default function Banner() {
 
                       <div className="d-flex justify-content-center gap-4 p-3">
   <div>
-    <button className="btn btn-outline-light rounded-4 d-flex align-items-center shadow-sm hover-shadow">
+    <button onClick={downloadCV} className="btn btn-outline-light rounded-4 d-flex align-items-center shadow-sm hover-shadow">
       <i className="fa fa-download me-2"></i> Download CV
     </button>
   </div>
 
-  <div>
-    <button className="btn btn-outline-light rounded-4 d-flex align-items-center shadow-sm hover-shadow">
-      <i className="fa fa-envelope me-2"></i> Contact Me
-    </button>
-  </div>
 
   <div>
     <button className="btn btn-outline-light rounded-4 d-flex align-items-center shadow-sm hover-shadow">
-      <i className="fa fa-linkedin me-2"></i> <a href="https://www.linkedin.com/in/eddy-andrianomenjanahary-734544347/">Linkedin</a>
+      <i className="fa fa-linkedin me-2"></i> <a className="text-dark" href="https://www.linkedin.com/in/eddy-andrianomenjanahary-734544347/">Linkedin</a>
     </button>
   </div>
 </div>

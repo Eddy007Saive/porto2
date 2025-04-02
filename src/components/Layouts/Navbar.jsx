@@ -10,14 +10,8 @@ const Navbar = () => {
           <ul className="navbar-nav d-flex flex-row gap-3">
             {/* Projects */}
             <li className="nav-item">
-              <a className="nav-link text-dark" href="index.html">
+              <a className="nav-link text-dark" href="#projects">
                 Projects
-              </a>
-            </li>
-            {/* Contacts */}
-            <li className="nav-item">
-              <a className="nav-link text-dark" href="about.html">
-                Contacts
               </a>
             </li>
            
